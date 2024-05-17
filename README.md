@@ -20,32 +20,8 @@
 
 
 ##  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b>Realizado por:
-- [Vitória Pereira](https://github.com/VickyOliver)
   <br>
-    <div>
-        <img height="200" src=https://avatars.githubusercontent.com/u/141190127?v=4/>
+    <div align="center">
+        <img height="400" width="800" src="https://github.com/lucasg-07/apple_academy_project/assets/110874265/d0cf9ff2-82cd-4995-b37b-4de74ffc7d69"/>
     </div>
-    
-  
-- [Beatriz de Oliveira](https://github.com/BiaOlit)
-  <br>
-    <div>
-        <img height="200" src="https://avatars.githubusercontent.com/u/143532366?v=4"/>
-    </div>
-
-
-- [Lucas Gonzaga](https://github.com/lucasg-07)
-  <br>
-    <div>
-        <img height="200" src="https://avatars.githubusercontent.com/u/110874265?v=4"/>
-    </div>
-   
-
-- [Mirela Vale](https://github.com/MirelaVale)
-  <br>
-    <div>
-        <img height="200" src=https://avatars.githubusercontent.com/u/141439795?v=4/>
-    </div>
-    
-
 
