@@ -21,4 +21,8 @@
 
 
 ##  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b>Realizado por:
-![Fotos Github (1)](https://github.com/lucasg-07/apple_academy_project/assets/143532366/bc18956a-49a2-4511-b8cb-11f7ad6794d5)
+  <br>
+    <div align="center">
+        <img height="400" width="800" src="https://github.com/lucasg-07/apple_academy_project/assets/110874265/d0cf9ff2-82cd-4995-b37b-4de74ffc7d69"/>
+    </div>
+

@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		225429752BE5577900DB0166 /* GeneralInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225429742BE5577900DB0166 /* GeneralInformationView.swift */; };
+		22771E6F2BEE871B000E05B7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22771E6E2BEE871B000E05B7 /* MainView.swift */; };
+		22771E752BEE8BCC000E05B7 /* DoctorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22771E742BEE8BCC000E05B7 /* DoctorCardView.swift */; };
+		22771E7E2BEE9185000E05B7 /* ConsultasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22771E7D2BEE9185000E05B7 /* ConsultasView.swift */; };
+		22771E822BEE91E0000E05B7 /* NoticiasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22771E812BEE91E0000E05B7 /* NoticiasView.swift */; };
+		22771E862BEE9202000E05B7 /* PerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22771E852BEE9202000E05B7 /* PerfilView.swift */; };
+		22F27E192BE16BD00016F194 /* CliniCampusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F27E182BE16BD00016F194 /* CliniCampusApp.swift */; };
+		22F27E1B2BE16BD00016F194 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F27E1A2BE16BD00016F194 /* LoginView.swift */; };
+		22F27E1D2BE16BD10016F194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F27E1C2BE16BD10016F194 /* Assets.xcassets */; };
+		22F27E202BE16BD10016F194 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F27E1F2BE16BD10016F194 /* Preview Assets.xcassets */; };
+		22F27E2A2BE16BD10016F194 /* CliniCampusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F27E292BE16BD10016F194 /* CliniCampusTests.swift */; };
+		22F27E342BE16BD10016F194 /* CliniCampusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F27E332BE16BD10016F194 /* CliniCampusUITests.swift */; };
+		22F27E362BE16BD10016F194 /* CliniCampusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F27E352BE16BD10016F194 /* CliniCampusUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22F27E262BE16BD10016F194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22F27E0D2BE16BD00016F194 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22F27E142BE16BD00016F194;
+			remoteInfo = CliniCampus;
+		};
+		22F27E302BE16BD10016F194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22F27E0D2BE16BD00016F194 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22F27E142BE16BD00016F194;
+			remoteInfo = CliniCampus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		225429742BE5577900DB0166 /* GeneralInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInformationView.swift; sourceTree = "<group>"; };
+		22771E6E2BEE871B000E05B7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		22771E742BEE8BCC000E05B7 /* DoctorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCardView.swift; sourceTree = "<group>"; };
+		22771E7D2BEE9185000E05B7 /* ConsultasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultasView.swift; sourceTree = "<group>"; };
+		22771E812BEE91E0000E05B7 /* NoticiasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticiasView.swift; sourceTree = "<group>"; };
+		22771E852BEE9202000E05B7 /* PerfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilView.swift; sourceTree = "<group>"; };
+		22F27E152BE16BD00016F194 /* CliniCampus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CliniCampus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F27E182BE16BD00016F194 /* CliniCampusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CliniCampusApp.swift; sourceTree = "<group>"; };
+		22F27E1A2BE16BD00016F194 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		22F27E1C2BE16BD10016F194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22F27E1F2BE16BD10016F194 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22F27E252BE16BD10016F194 /* CliniCampusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CliniCampusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F27E292BE16BD10016F194 /* CliniCampusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CliniCampusTests.swift; sourceTree = "<group>"; };
+		22F27E2F2BE16BD10016F194 /* CliniCampusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CliniCampusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F27E332BE16BD10016F194 /* CliniCampusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CliniCampusUITests.swift; sourceTree = "<group>"; };
+		22F27E352BE16BD10016F194 /* CliniCampusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CliniCampusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22F27E122BE16BD00016F194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F27E222BE16BD10016F194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F27E2C2BE16BD10016F194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22F27E0C2BE16BD00016F194 = {
+			isa = PBXGroup;
+			children = (
+				22F27E172BE16BD00016F194 /* CliniCampus */,
+				22F27E282BE16BD10016F194 /* CliniCampusTests */,
+				22F27E322BE16BD10016F194 /* CliniCampusUITests */,
+				22F27E162BE16BD00016F194 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22F27E162BE16BD00016F194 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22F27E152BE16BD00016F194 /* CliniCampus.app */,
+				22F27E252BE16BD10016F194 /* CliniCampusTests.xctest */,
+				22F27E2F2BE16BD10016F194 /* CliniCampusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22F27E172BE16BD00016F194 /* CliniCampus */ = {
+			isa = PBXGroup;
+			children = (
+				22F27E182BE16BD00016F194 /* CliniCampusApp.swift */,
+				225429742BE5577900DB0166 /* GeneralInformationView.swift */,
+				22F27E1A2BE16BD00016F194 /* LoginView.swift */,
+				22771E6E2BEE871B000E05B7 /* MainView.swift */,
+				22771E742BEE8BCC000E05B7 /* DoctorCardView.swift */,
+				22F27E1E2BE16BD10016F194 /* Preview Content */,
+				22F27E1C2BE16BD10016F194 /* Assets.xcassets */,
+				22771E7D2BEE9185000E05B7 /* ConsultasView.swift */,
+				22771E812BEE91E0000E05B7 /* NoticiasView.swift */,
+				22771E852BEE9202000E05B7 /* PerfilView.swift */,
+			);
+			path = CliniCampus;
+			sourceTree = "<group>";
+		};
+		22F27E1E2BE16BD10016F194 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22F27E1F2BE16BD10016F194 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22F27E282BE16BD10016F194 /* CliniCampusTests */ = {
+			isa = PBXGroup;
+			children = (
+				22F27E292BE16BD10016F194 /* CliniCampusTests.swift */,
+			);
+			path = CliniCampusTests;
+			sourceTree = "<group>";
+		};
+		22F27E322BE16BD10016F194 /* CliniCampusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22F27E332BE16BD10016F194 /* CliniCampusUITests.swift */,
+				22F27E352BE16BD10016F194 /* CliniCampusUITestsLaunchTests.swift */,
+			);
+			path = CliniCampusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22F27E142BE16BD00016F194 /* CliniCampus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F27E392BE16BD10016F194 /* Build configuration list for PBXNativeTarget "CliniCampus" */;
+			buildPhases = (
+				22F27E112BE16BD00016F194 /* Sources */,
+				22F27E122BE16BD00016F194 /* Frameworks */,
+				22F27E132BE16BD00016F194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				226E38ED2BE5740A00C9BF81 /* PBXTargetDependency */,
+			);
+			name = CliniCampus;
+			productName = CliniCampus;
+			productReference = 22F27E152BE16BD00016F194 /* CliniCampus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22F27E242BE16BD10016F194 /* CliniCampusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F27E3C2BE16BD10016F194 /* Build configuration list for PBXNativeTarget "CliniCampusTests" */;
+			buildPhases = (
+				22F27E212BE16BD10016F194 /* Sources */,
+				22F27E222BE16BD10016F194 /* Frameworks */,
+				22F27E232BE16BD10016F194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22F27E272BE16BD10016F194 /* PBXTargetDependency */,
+			);
+			name = CliniCampusTests;
+			productName = CliniCampusTests;
+			productReference = 22F27E252BE16BD10016F194 /* CliniCampusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22F27E2E2BE16BD10016F194 /* CliniCampusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F27E3F2BE16BD10016F194 /* Build configuration list for PBXNativeTarget "CliniCampusUITests" */;
+			buildPhases = (
+				22F27E2B2BE16BD10016F194 /* Sources */,
+				22F27E2C2BE16BD10016F194 /* Frameworks */,
+				22F27E2D2BE16BD10016F194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22F27E312BE16BD10016F194 /* PBXTargetDependency */,
+			);
+			name = CliniCampusUITests;
+			productName = CliniCampusUITests;
+			productReference = 22F27E2F2BE16BD10016F194 /* CliniCampusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22F27E0D2BE16BD00016F194 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					22F27E142BE16BD00016F194 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					22F27E242BE16BD10016F194 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 22F27E142BE16BD00016F194;
+					};
+					22F27E2E2BE16BD10016F194 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 22F27E142BE16BD00016F194;
+					};
+				};
+			};
+			buildConfigurationList = 22F27E102BE16BD00016F194 /* Build configuration list for PBXProject "CliniCampus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22F27E0C2BE16BD00016F194;
+			packageReferences = (
+				226E38EB2BE5733C00C9BF81 /* XCRemoteSwiftPackageReference "swiftui-lint" */,
+			);
+			productRefGroup = 22F27E162BE16BD00016F194 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22F27E142BE16BD00016F194 /* CliniCampus */,
+				22F27E242BE16BD10016F194 /* CliniCampusTests */,
+				22F27E2E2BE16BD10016F194 /* CliniCampusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22F27E132BE16BD00016F194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F27E202BE16BD10016F194 /* Preview Assets.xcassets in Resources */,
+				22F27E1D2BE16BD10016F194 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F27E232BE16BD10016F194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F27E2D2BE16BD10016F194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22F27E112BE16BD00016F194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22771E862BEE9202000E05B7 /* PerfilView.swift in Sources */,
+				225429752BE5577900DB0166 /* GeneralInformationView.swift in Sources */,
+				22771E822BEE91E0000E05B7 /* NoticiasView.swift in Sources */,
+				22771E7E2BEE9185000E05B7 /* ConsultasView.swift in Sources */,
+				22F27E1B2BE16BD00016F194 /* LoginView.swift in Sources */,
+				22771E6F2BEE871B000E05B7 /* MainView.swift in Sources */,
+				22771E752BEE8BCC000E05B7 /* DoctorCardView.swift in Sources */,
+				22F27E192BE16BD00016F194 /* CliniCampusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F27E212BE16BD10016F194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F27E2A2BE16BD10016F194 /* CliniCampusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F27E2B2BE16BD10016F194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F27E342BE16BD10016F194 /* CliniCampusUITests.swift in Sources */,
+				22F27E362BE16BD10016F194 /* CliniCampusUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		226E38ED2BE5740A00C9BF81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 226E38EC2BE5740A00C9BF81 /* SwiftUILintPlugin */;
+		};
+		22F27E272BE16BD10016F194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22F27E142BE16BD00016F194 /* CliniCampus */;
+			targetProxy = 22F27E262BE16BD10016F194 /* PBXContainerItemProxy */;
+		};
+		22F27E312BE16BD10016F194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22F27E142BE16BD00016F194 /* CliniCampus */;
+			targetProxy = 22F27E302BE16BD10016F194 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22F27E372BE16BD10016F194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22F27E382BE16BD10016F194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22F27E3A2BE16BD10016F194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CliniCampus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vi-e-lucas.CliniCampus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22F27E3B2BE16BD10016F194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CliniCampus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vi-e-lucas.CliniCampus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22F27E3D2BE16BD10016F194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vi-e-lucas.CliniCampusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CliniCampus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CliniCampus";
+			};
+			name = Debug;
+		};
+		22F27E3E2BE16BD10016F194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vi-e-lucas.CliniCampusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CliniCampus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CliniCampus";
+			};
+			name = Release;
+		};
+		22F27E402BE16BD10016F194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vi-e-lucas.CliniCampusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CliniCampus;
+			};
+			name = Debug;
+		};
+		22F27E412BE16BD10016F194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vi-e-lucas.CliniCampusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CliniCampus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22F27E102BE16BD00016F194 /* Build configuration list for PBXProject "CliniCampus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F27E372BE16BD10016F194 /* Debug */,
+				22F27E382BE16BD10016F194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F27E392BE16BD10016F194 /* Build configuration list for PBXNativeTarget "CliniCampus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F27E3A2BE16BD10016F194 /* Debug */,
+				22F27E3B2BE16BD10016F194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F27E3C2BE16BD10016F194 /* Build configuration list for PBXNativeTarget "CliniCampusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F27E3D2BE16BD10016F194 /* Debug */,
+				22F27E3E2BE16BD10016F194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F27E3F2BE16BD10016F194 /* Build configuration list for PBXNativeTarget "CliniCampusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F27E402BE16BD10016F194 /* Debug */,
+				22F27E412BE16BD10016F194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		226E38EB2BE5733C00C9BF81 /* XCRemoteSwiftPackageReference "swiftui-lint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mateusrodriguesxyz/swiftui-lint";
+			requirement = {
+				branch = beta;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		226E38EC2BE5740A00C9BF81 /* SwiftUILintPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 226E38EB2BE5733C00C9BF81 /* XCRemoteSwiftPackageReference "swiftui-lint" */;
+			productName = "plugin:SwiftUILintPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 22F27E0D2BE16BD00016F194 /* Project object */;
+}
