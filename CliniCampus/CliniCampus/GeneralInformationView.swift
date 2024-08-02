@@ -13,9 +13,9 @@ struct GeneralInformationView: View {
                             .bold()
                     }
                     Spacer()
-                    Image("user_avatar") // Add your image asset name
+                    Image("Bia") // Add your image asset name
                         .resizable()
-                        .frame(width: 60, height: 60)
+                        .frame(width: 100, height: 100)
                         .clipShape(Circle())
                 }
                 Text("Campanhas")
@@ -26,12 +26,7 @@ struct GeneralInformationView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .cornerRadius(10)
-
-                Image("campanha2") // Example placeholder
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .cornerRadius(10)
-
+                
                 Text("Melhores doutores")
                     .font(.title2)
                     .bold()

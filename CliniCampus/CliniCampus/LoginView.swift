@@ -53,7 +53,7 @@ struct LoginView: View {
                 
                 
                 NavigationLink("Confirmar") {
-                    GeneralInformationView()
+                    MainView()
                         
                 }
                 .foregroundStyle(.black)
